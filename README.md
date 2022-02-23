@@ -1,1 +1,1 @@
-print-nfc.exe: 379.5KB
+print-nfc-strip.exe: 265.5KB

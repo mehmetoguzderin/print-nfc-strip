@@ -3,7 +3,7 @@
 version = 3
 
 [[package]]
-name = "print-nfc"
+name = "print-nfc-strip"
 version = "0.1.0"
 dependencies = [
  "unicode-normalization",
@@ -27,8 +27,7 @@ checksum = "cda74da7e1a664f795bb1f8a87ec406fb89a02522cf6e50620d016add6dbbf5c"
 [[package]]
 name = "unicode-normalization"
 version = "0.1.19"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d54590932941a9e9266f0832deed84ebe1bf2e4c9e4a3554d393d18f5e854bf9"
+source = "git+https://github.com/mehmetoguzderin/unicode-normalization?branch=no-compatibility#bb5fcf6eef691dec0d0c8c0abb9c2796c7213d34"
 dependencies = [
  "tinyvec",
 ]
